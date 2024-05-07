@@ -11,8 +11,8 @@ const Footer = () => {
         Talup 2023. All rights reserved
       </p>
       <div className="footer_links">
-        <a href="">Terms & Conditions</a>
-        <a href="">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Privacy Policy</a>
       </div>
     </footer>
   );

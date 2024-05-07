@@ -55,10 +55,6 @@ p {
 .header_right > p:nth-child(1) {
   border: 1.31px solid #eaeaea;
   font-weight: 500;
-}
-
-.header_right > p:nth-child(1) > a {
-  text-decoration: none;
   color: #1c1c1c;
 }
 
