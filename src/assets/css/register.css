@@ -1,0 +1,134 @@
+.register_header {
+  margin: 24px;
+  display: flex;
+  justify-content: space-between;
+  padding: 16.97px 20.89px 16.97px 52.22px;
+  border-radius: 65.28px;
+}
+
+.register_form {
+  width: 100%;
+  height: 538.22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.register_form h4:nth-child(1) {
+  font-family: var(--grace);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 39.6px;
+  letter-spacing: -0.02em;
+  color: #2da950;
+}
+
+.register_form h4:nth-child(2) {
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 67.2px;
+  letter-spacing: -0.02em;
+  color: #1c1c1c;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.form_container {
+  display: flex;
+  flex-direction: column;
+  width: 417px;
+  height: 298.22px;
+  gap: 10px;
+}
+
+input {
+  padding: 24px 36px 24px 36px;
+  gap: 10px;
+  height: 75px;
+  border-radius: 64px;
+  font-size: 20px;
+  background: #efefef;
+  border: 1px solid #00000005;
+}
+
+input::placeholder {
+  font-family: var(--manrope);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27.32px;
+  color: #827a7a;
+}
+
+.submit_btn {
+  height: 77.22px;
+  padding: 26.11px 49.61px 26.11px 41.78px;
+  margin-top: 30px;
+  border-radius: 107.06px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-family: var(--manrope);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24.59px;
+  text-align: center;
+}
+
+.error {
+  font-family: var(--manrope);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21.86px;
+  text-align: center;
+  color: #ff0808;
+}
+
+/* Success Css */
+.success_container {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 718px;
+}
+
+.success_container p {
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 35.1px;
+  text-align: center;
+  color: #727272;
+  margin-top: 10px;
+}
+
+.message_box h4:nth-child(1) {
+  font-family: var(--grace);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 39.6px;
+  letter-spacing: -0.02em;
+  color: #2da950;
+}
+
+.message_box h4:nth-child(2) {
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 67.2px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #1c1c1c;
+}
+
+.redirect_message {
+  font-family: var(--manrope);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: #727272;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
