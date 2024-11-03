@@ -8,11 +8,11 @@ A landing page for a Gelato business with user registration and success confirma
 
 ## ✨ Features
 
-HomePage:Responsive homepage with features like accordian,header
-Registration Form: Users enter their name and email.
-Validation: Real-time validation for required fields and email format.
-Success Confirmation: After successful registration, users are redirected to a confirmation page.
-Auto-redirect: Automatically redirects users to the homepage after 5 seconds on the success page.
+HomePage:Responsive homepage with features like accordian,header </br>
+Registration Form: Users enter their name and email. </br>
+Validation: Real-time validation for required fields and email format. </br>
+Success Confirmation: After successful registration, users are redirected to a confirmation page. </br>
+Auto-redirect: Automatically redirects users to the homepage after 5 seconds on the success page. </br>
 Responsive Design: Adapted for various screen sizes.
 
 ## 🚀 Getting Started
