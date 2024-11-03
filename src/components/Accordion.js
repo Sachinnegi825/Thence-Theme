@@ -4,11 +4,9 @@ import Minus from "../assets/images/minus.svg";
 
 const Accordion = ({ questions }) => {
   const [openIndex, setOpenIndex] = useState(null);
-  const [open, setOpen] = useState(false);
 
   const toggleSection = (index) => {
     setOpenIndex(openIndex === index ? null : index);
-    setOpen(!open);
   };
 
   return (
@@ -20,11 +18,10 @@ const Accordion = ({ questions }) => {
             onClick={() => toggleSection(index)}
           >
             {question.header}
-
-            {open ? (
+            {openIndex === index ? (
               <img src={Minus} alt="minus" />
             ) : (
-              <img src={Plus} alt="Plus" />
+              <img src={Plus} alt="plus" />
             )}
           </div>
           {openIndex === index && (
