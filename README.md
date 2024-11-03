@@ -1,10 +1,13 @@
-Gelato Landing Page - Registration and Success Pages 🍦
+# Gelato Landing Page - Registration and Success Pages 🍦
+
 A landing page for a Gelato business with user registration and success confirmation pages built with React and Vite. Users can register by providing their name and email, and upon successful form submission, they are redirected to a success page.
 
-📌 Demo
+## 📌 Demo
+
 [Live Demo](https://thence-app.netlify.app/) - Check out the live version of the project.
 
-✨ Features
+## ✨ Features
+
 HomePage:Responsive homepage with features like accordian,header
 Registration Form: Users enter their name and email.
 Validation: Real-time validation for required fields and email format.
@@ -12,18 +15,22 @@ Success Confirmation: After successful registration, users are redirected to a c
 Auto-redirect: Automatically redirects users to the homepage after 5 seconds on the success page.
 Responsive Design: Adapted for various screen sizes.
 
-🚀 Getting Started
-Prerequisites
+## 🚀 Getting Started
+
+### Prerequisites
+
 Node.js (v14+ recommended)
 Git
 
-Installation
+### Installation
+
 Clone the repository:
 bash
 git clone https://github.com/Sachinnegi825/Thence-Theme.git
 cd Thence-Theme
 
-Install dependencies:
+### Install dependencies:
+
 npm install
 Running the Project
 
