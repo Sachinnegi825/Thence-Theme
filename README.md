@@ -1,6 +1,6 @@
-# Gelato Landing Page - Registration and Success Pages 🍦
+# Thence🍦
 
-A landing page for a Gelato business with user registration and success confirmation pages built with React and Vite. Users can register by providing their name and email, and upon successful form submission, they are redirected to a success page.
+A landing page for a thence business with user registration and success confirmation pages built with React. Users can register by providing their name and email, and upon successful form submission, they are redirected to a success page.
 
 ## 📌 Demo
 
