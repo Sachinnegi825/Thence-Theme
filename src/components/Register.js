@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Logo from "../assets/images/logo.svg";
 import Cancel from "../assets/images/cancel.svg";
 import Error from "../assets/images/error.svg";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Register = () => {
   const [formdata, setFormdata] = useState({
@@ -51,9 +51,9 @@ const Register = () => {
     <>
       <header className="register_header">
         <img src={Logo} alt="logo" />
-        <a href="/">
+        <Link href="/">
           <img src={Cancel} alt="cancel" />
-        </a>
+        </Link>
       </header>
 
       <div className="register_form">
